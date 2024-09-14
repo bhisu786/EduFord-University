@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rep.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://kit.fontawesome.com/5402fab53c.css" crossorigin="anonymous">         
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+ integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+
+<title>University Website</title>
+</head>
+<body>
+   <section class="sub-header">
+     <nav>
+        <a href="uni_homepage.html"> <img src="./assests/logo.png"> </a>
+
+        <div class="nav-links" id="navlinks">
+            <i class="fa regular fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+              <li><a href="uni_homepage.html">HOME</a></li>
+              <li><a href="uni_aboutpage.html">ABOUT</a></li>
+              <li><a href="uni_coursepage.html">COURSES</a></li>
+              <li><a href="uni_blogpage.html">BLOG</a></li>
+              <li><a href="uni_contactspage.html">CONTACT</a></li>
+           
+            </ul>
+        </div>
+        <i class="fa solid fa-bars" onclick="showmenu()"></i>
+     </nav>
+       <h1> About Us</h1>
+   </section>
+   
+
+    <section class="about-us">
+     <div class="row">
+          <div class="about-col">
+            <h1>We Are The World's Largest University</h1>  
+            <p>  The world largest university system in the world, with a total enrollment of 2.1 million students. The system has its roots in the early 1900s when the government saw a need to create a system of academic and vocational schools in order to fill a gap in the California workforce. Today, the system consists of 114 colleges.</p>   
+            <a href="" class="hero-btn red-btn"> Explore Now</a>
+         
+         </div>
+          <div class="about-col"> 
+            <img src="./assests/about.jpg">    
+         </div>
+     </div>
+
+
+    </section>
+  <!---footer-->
+
+  <section class="footer">
+   <h4> About Us</h4>
+   <p>The modern Western university evolved from the medieval schools known as studia …
+      The earliest Western institution that can be called a university was a famous medical
+       school that arose at Salerno, Italy, in the 9th century and drew students from all
+        over Europe</p>
+
+        <div class="icons">
+          <a href="https://www.facebook.com/profile.php?id=100069617600654&mibextid=ZbWKwL">
+          <i class=" fa fa-brands fa-facebook"> </i></a>
+          <a href="https://instagram.com/bhisu__786?igshid=MzNlNGNkZWQ4Mg==">
+          <i class=" fa fa-brands fa-instagram"></i></a>
+ 
+          <a href="https://twitter.com/Bhishambalhara?t=-S5AWM25eRx4-ddwag-NBg&s=09">
+          <i class=" fa fa-brands fa-twitter"></i></a>
+ 
+          <a href="https://www.linkedin.com/in/bhisham-balhara-058b00211">
+          <i class=" fa fa-brands fa-linkedin"></i></a>
+         </div>
+         <p>Made by </a><i class="fa-brands fa-facebook" ></i> Bhisham balhara</p>
+  </section>
+
+
+   </section>
+
+
+
+
+
+
+
+
+   <script>
+       
+       
+    var navlinks=document.getElementById("navlinks");
+
+    function showmenu(){
+      navlinks.style.right="0";
+    }
+    function hidemenu(){
+      navlinks.style.right="-200px";
+    }
+  
+   </script>
+
+
+
+</body>
+</html>

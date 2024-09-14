@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rep.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://kit.fontawesome.com/5402fab53c.css" crossorigin="anonymous">         
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+ integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+
+<title>University Website</title>
+</head>
+<body>
+   <section class="sub-header">
+     <nav>
+        <a href="uni_homepage.html"> <img src="./assests/logo.png"> </a>
+
+        <div class="nav-links" id="navlinks">
+            <i class="fa regular fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+                  <li><a href="uni_homepage.html">HOME</a></li>
+                  <li><a href="uni_aboutpage.html">ABOUT</a></li>
+                  <li><a href="uni_coursepage.html">COURSES</a></li>
+                  <li><a href="uni_blogpage.html">BLOG</a></li>
+                  <li><a href="uni_contactspage.html">CONTACT</a></li>
+           
+            </ul>
+        </div>
+        <i class="fa solid fa-bars" onclick="showmenu()"></i>
+     </nav>
+       <h1> Contact Us</h1>
+   </section>
+   
+
+    
+  <!---contact us -->
+
+  <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3493.7239810319033!2d76.62110799999999!3d28.876826899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d84dd1290113f%3A0x93e332b1a4af99f!2sMaharshi%20Dayanand%20University!5e0!3m2!1sen!2sin!4v1686204104829!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+          <i class=" fa  fa-home"></i>
+          <span>
+           <h5>Near DelhiBypass,Rohtak,Haryana</h5>
+           <p>Rohtak,Haryana,IN</p>
+          </span>
+        </div>
+        <div>
+          <i class=" fa fa-phone"></i>
+          <span>
+           <h5>+91 9416131769</h5>
+           <p>Monday To Saturday,10am To 6pm</p>
+          </span>
+        </div>
+        <div >
+          <i class=" fa  fa-envelope"></i>
+          <span>
+           <h5>info_mdu@gmail.com</h5>
+           <p>E-mail us for query</p>
+          </span>
+        </div>
+        </div>
+        <div class="contact-col">
+      
+           <form action="formhandler.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name " required>
+            <input type="email" name="email" placeholder="Enter  E-mail  address " required>
+            <input type="text" name="subject" placeholder="Enter your Subject " required>
+
+            <textarea rows="8" name="message"   placeholder="message" ></textarea>
+            <button type="submit" class="hero-btn red-btn"> Send Message</button>
+           </form>
+
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4> About Us</h4>
+      <p>The modern Western university evolved from the medieval schools known as studia …
+         The earliest Western institution that can be called a university was a famous medical
+          school that arose at Salerno, Italy, in the 9th century and drew students from all
+           over Europe</p>
+   
+           <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100069617600654&mibextid=ZbWKwL">
+            <i class=" fa fa-brands fa-facebook"> </i></a>
+            <a href="https://instagram.com/bhisu__786?igshid=MzNlNGNkZWQ4Mg==">
+            <i class=" fa fa-brands fa-instagram"></i></a>
+   
+            <a href="https://twitter.com/Bhishambalhara?t=-S5AWM25eRx4-ddwag-NBg&s=09">
+            <i class=" fa fa-brands fa-twitter"></i></a>
+   
+            <a href="https://www.linkedin.com/in/bhisham-balhara-058b00211">
+            <i class=" fa fa-brands fa-linkedin"></i></a>
+           </div>
+           <p>Made by </a><i class="fa-brands fa-facebook" ></i> Bhisham balhara</p>
+
+
+  
+
+
+
+
+
+
+
+
+   <script>
+       
+       
+    var navlinks=document.getElementById("navlinks");
+
+    function showmenu(){
+      navlinks.style.right="0";
+    }
+    function hidemenu(){
+      navlinks.style.right="-200px";
+    }
+  
+   </script>
+
+
+
+</body>
+</html>
